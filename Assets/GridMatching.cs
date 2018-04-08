@@ -66,9 +66,9 @@ public class GridMatching : MonoBehaviour {
 		UpdateGrid (displayboard.getBoardState ());
 		FocusBox.transform.localPosition = displayboard.getFocusBoxCoords ();
 
-		Debug.LogFormat ("[PatternMatching #{0}] Seed Grid: {1} Seed Label: {2}", _moduleId, solutionboard.getBoardState(), solutionName);
-		Debug.LogFormat ("[PatternMatching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, solutionboard.getSolution(), solutionName);
-		Debug.LogFormat ("[PatternMatching #{0}] Current Grid: {1} Current Label: {2}", _moduleId, displayboard.getBoardState (), scroller.getState());
+		Debug.LogFormat ("[GridMatching #{0}] Seed Grid: {1} Seed Label: {2}", _moduleId, solutionboard.getBoardState(), solutionName);
+		Debug.LogFormat ("[GridMatching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, solutionboard.getSolution(), solutionName);
+		Debug.LogFormat ("[GridMatching #{0}] Current Grid: {1} Current Label: {2}", _moduleId, displayboard.getBoardState (), scroller.getState());
 		}
 
 	private void HandleDirectionalButton(int i){
@@ -130,12 +130,13 @@ public class GridMatching : MonoBehaviour {
 	private bool HandleVerifySolution(){
 		Audio.PlayGameSoundAtTransform (KMSoundOverride.SoundEffect.ButtonPress, ButtonVerifySolution.transform);
 		ButtonVerifySolution.AddInteractionPunch (buttonbump);
+		Debug.LogFormat ("[GridMatching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, solutionboard.getSolution(), solutionName);
 		if (solutionboard.checkProposedSolution(displayboard) && ScrollerText.text.Equals(solutionName)){
-			Debug.LogFormat ("[PatternMatching #{0}] Entered correct Solution and Label. Solution: {1} Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
+			Debug.LogFormat ("[GridMatching #{0}] Entered correct Solution and Label. Solution: {1} Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
 			BombModule.HandlePass ();
 		} 
 		else {
-			Debug.LogFormat ("[PatternMatching #{0}] Entered incorrect Solution or Label. Solution: {1} Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
+			Debug.LogFormat ("[GridMatching #{0}] Entered incorrect Solution or Label. Solution: {1} Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
 			BombModule.HandleStrike ();
 		}
 		return false;
