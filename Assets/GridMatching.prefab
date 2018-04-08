@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33627164140109962}
   - component: {fileID: 23195264866884998}
   - component: {fileID: 114332353309686124}
-  - component: {fileID: 114834968266604930}
   m_Layer: 0
   m_Name: Cylinder27
   m_TagString: Untagged
@@ -59,7 +58,6 @@ GameObject:
   - component: {fileID: 33028668434645608}
   - component: {fileID: 23434199774609964}
   - component: {fileID: 114064252047138036}
-  - component: {fileID: 114969022211257338}
   m_Layer: 0
   m_Name: Cylinder25
   m_TagString: Untagged
@@ -129,7 +127,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4563587700599294}
   - component: {fileID: 33442078320449110}
-  - component: {fileID: 65249409618272942}
   - component: {fileID: 23655456115857138}
   - component: {fileID: 114569184642906146}
   - component: {fileID: 114810341249572706}
@@ -169,7 +166,6 @@ GameObject:
   - component: {fileID: 33807859985910142}
   - component: {fileID: 23104082924378320}
   - component: {fileID: 114656638585291656}
-  - component: {fileID: 114536240285496560}
   m_Layer: 0
   m_Name: Cylinder34
   m_TagString: Untagged
@@ -206,7 +202,6 @@ GameObject:
   - component: {fileID: 33339057861776284}
   - component: {fileID: 23182969668923004}
   - component: {fileID: 114957900477645064}
-  - component: {fileID: 114897478721295920}
   m_Layer: 0
   m_Name: Cylinder5
   m_TagString: Untagged
@@ -256,7 +251,6 @@ GameObject:
   - component: {fileID: 33495831195412162}
   - component: {fileID: 23767671616872294}
   - component: {fileID: 114673728837423136}
-  - component: {fileID: 114074631109849242}
   m_Layer: 0
   m_Name: Cylinder1
   m_TagString: Untagged
@@ -275,7 +269,6 @@ GameObject:
   - component: {fileID: 33325330823048720}
   - component: {fileID: 23128688479860254}
   - component: {fileID: 114542266171894364}
-  - component: {fileID: 114320965238082122}
   m_Layer: 0
   m_Name: FocusBoxEdgeRight
   m_TagString: Untagged
@@ -294,7 +287,6 @@ GameObject:
   - component: {fileID: 33733018664344660}
   - component: {fileID: 23788998177939306}
   - component: {fileID: 114799033407593336}
-  - component: {fileID: 114898177462418310}
   m_Layer: 0
   m_Name: Cylinder14
   m_TagString: Untagged
@@ -313,7 +305,6 @@ GameObject:
   - component: {fileID: 33102180842815822}
   - component: {fileID: 23660068540910224}
   - component: {fileID: 114325004752836404}
-  - component: {fileID: 114185193363843338}
   m_Layer: 0
   m_Name: Cylinder2
   m_TagString: Untagged
@@ -435,7 +426,6 @@ GameObject:
   - component: {fileID: 33090382602447956}
   - component: {fileID: 23074454062108568}
   - component: {fileID: 114332043211922734}
-  - component: {fileID: 114493019412156460}
   m_Layer: 0
   m_Name: Cylinder4
   m_TagString: Untagged
@@ -454,7 +444,6 @@ GameObject:
   - component: {fileID: 33756490678464276}
   - component: {fileID: 23732885629249566}
   - component: {fileID: 114310079589886596}
-  - component: {fileID: 114209236604112420}
   m_Layer: 0
   m_Name: Cylinder29
   m_TagString: Untagged
@@ -473,7 +462,6 @@ GameObject:
   - component: {fileID: 33385904084302802}
   - component: {fileID: 23872474713717394}
   - component: {fileID: 114257060150015752}
-  - component: {fileID: 114339378986618280}
   m_Layer: 0
   m_Name: Cylinder16
   m_TagString: Untagged
@@ -489,7 +477,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4304352199449492}
-  - component: {fileID: 114434558955990624}
   m_Layer: 0
   m_Name: FocusBox
   m_TagString: Untagged
@@ -526,7 +513,6 @@ GameObject:
   - component: {fileID: 33905518158811764}
   - component: {fileID: 23287055678837330}
   - component: {fileID: 114144652672252392}
-  - component: {fileID: 114931325735332896}
   m_Layer: 0
   m_Name: Cylinder22
   m_TagString: Untagged
@@ -582,7 +568,6 @@ GameObject:
   - component: {fileID: 33091907357923942}
   - component: {fileID: 23317800208384314}
   - component: {fileID: 114710581594235510}
-  - component: {fileID: 114712126436316538}
   m_Layer: 0
   m_Name: Cylinder18
   m_TagString: Untagged
@@ -673,7 +658,6 @@ GameObject:
   - component: {fileID: 33067945432013754}
   - component: {fileID: 23650096576314858}
   - component: {fileID: 114845445295303706}
-  - component: {fileID: 114660220471506108}
   m_Layer: 0
   m_Name: Cylinder9
   m_TagString: Untagged
@@ -710,7 +694,6 @@ GameObject:
   - component: {fileID: 33994791650156258}
   - component: {fileID: 23291388931622850}
   - component: {fileID: 114208270621462470}
-  - component: {fileID: 114382424429046384}
   m_Layer: 0
   m_Name: Cylinder24
   m_TagString: Untagged
@@ -767,7 +750,6 @@ GameObject:
   - component: {fileID: 33066617562726292}
   - component: {fileID: 23558068571514612}
   - component: {fileID: 114749418815402742}
-  - component: {fileID: 114436085487441448}
   m_Layer: 0
   m_Name: Cylinder3
   m_TagString: Untagged
@@ -786,7 +768,6 @@ GameObject:
   - component: {fileID: 33128629424250100}
   - component: {fileID: 23167750630200502}
   - component: {fileID: 114114825649713154}
-  - component: {fileID: 114843555964382940}
   m_Layer: 0
   m_Name: Cylinder20
   m_TagString: Untagged
@@ -876,7 +857,6 @@ GameObject:
   - component: {fileID: 33149385004924370}
   - component: {fileID: 23535252671862918}
   - component: {fileID: 114161284532604312}
-  - component: {fileID: 114663446411727066}
   m_Layer: 0
   m_Name: FocusBoxEdgeLeft
   m_TagString: Untagged
@@ -913,7 +893,6 @@ GameObject:
   - component: {fileID: 33617061252961038}
   - component: {fileID: 23645006165022084}
   - component: {fileID: 114637465186736060}
-  - component: {fileID: 114874136593380926}
   m_Layer: 0
   m_Name: Cylinder21
   m_TagString: Untagged
@@ -932,7 +911,6 @@ GameObject:
   - component: {fileID: 33028816876088886}
   - component: {fileID: 23684119339204092}
   - component: {fileID: 114565400392466220}
-  - component: {fileID: 114916065010536816}
   m_Layer: 0
   m_Name: Cylinder30
   m_TagString: Untagged
@@ -951,7 +929,6 @@ GameObject:
   - component: {fileID: 33711991306529278}
   - component: {fileID: 23681574813842526}
   - component: {fileID: 114958508097596410}
-  - component: {fileID: 114319095034827548}
   m_Layer: 0
   m_Name: Cylinder15
   m_TagString: Untagged
@@ -989,7 +966,6 @@ GameObject:
   - component: {fileID: 33954378438820742}
   - component: {fileID: 23927095867266052}
   - component: {fileID: 114408788181574642}
-  - component: {fileID: 114229025814990804}
   m_Layer: 0
   m_Name: Cylinder12
   m_TagString: Untagged
@@ -1008,7 +984,6 @@ GameObject:
   - component: {fileID: 33154430239586632}
   - component: {fileID: 23345308032781436}
   - component: {fileID: 114523797954548680}
-  - component: {fileID: 114895448679098100}
   m_Layer: 0
   m_Name: Cylinder28
   m_TagString: Untagged
@@ -1027,7 +1002,6 @@ GameObject:
   - component: {fileID: 33589964157901582}
   - component: {fileID: 23832565359315326}
   - component: {fileID: 114822070469182966}
-  - component: {fileID: 114688424570484290}
   m_Layer: 0
   m_Name: Cylinder11
   m_TagString: Untagged
@@ -1101,7 +1075,6 @@ GameObject:
   - component: {fileID: 33018548853486020}
   - component: {fileID: 23127081499529330}
   - component: {fileID: 114564923816617750}
-  - component: {fileID: 114148936449079048}
   m_Layer: 0
   m_Name: Cylinder6
   m_TagString: Untagged
@@ -1157,7 +1130,6 @@ GameObject:
   - component: {fileID: 33133484211286886}
   - component: {fileID: 23767323243913146}
   - component: {fileID: 114673638179875672}
-  - component: {fileID: 114989457682872706}
   m_Layer: 0
   m_Name: Cylinder10
   m_TagString: Untagged
@@ -1176,7 +1148,6 @@ GameObject:
   - component: {fileID: 33133634895189838}
   - component: {fileID: 23379262743264958}
   - component: {fileID: 114005570595246752}
-  - component: {fileID: 114305204846606852}
   m_Layer: 0
   m_Name: Cylinder19
   m_TagString: Untagged
@@ -1195,7 +1166,6 @@ GameObject:
   - component: {fileID: 33519133940174248}
   - component: {fileID: 23880287874253714}
   - component: {fileID: 114313228523627880}
-  - component: {fileID: 114863104726356480}
   m_Layer: 0
   m_Name: Cylinder26
   m_TagString: Untagged
@@ -1214,7 +1184,6 @@ GameObject:
   - component: {fileID: 33722106125279982}
   - component: {fileID: 23354750820694912}
   - component: {fileID: 114223620787219440}
-  - component: {fileID: 114124730082349786}
   m_Layer: 0
   m_Name: Cylinder23
   m_TagString: Untagged
@@ -1252,7 +1221,6 @@ GameObject:
   - component: {fileID: 33228426773450434}
   - component: {fileID: 23577609036265712}
   - component: {fileID: 114357173928799344}
-  - component: {fileID: 114728625800055862}
   m_Layer: 0
   m_Name: Cylinder7
   m_TagString: Untagged
@@ -1271,7 +1239,6 @@ GameObject:
   - component: {fileID: 33404879420704222}
   - component: {fileID: 23348035795737122}
   - component: {fileID: 114992936652177568}
-  - component: {fileID: 114088613910148864}
   m_Layer: 0
   m_Name: FocusBoxEdgeBot
   m_TagString: Untagged
@@ -1309,7 +1276,6 @@ GameObject:
   - component: {fileID: 33068415178177188}
   - component: {fileID: 23410727007985556}
   - component: {fileID: 114053542929721574}
-  - component: {fileID: 114923366575340500}
   m_Layer: 0
   m_Name: Cylinder17
   m_TagString: Untagged
@@ -1328,7 +1294,6 @@ GameObject:
   - component: {fileID: 33775630701469506}
   - component: {fileID: 23700414875264474}
   - component: {fileID: 114414354203704884}
-  - component: {fileID: 114640789889998270}
   m_Layer: 0
   m_Name: Cylinder35
   m_TagString: Untagged
@@ -1347,7 +1312,6 @@ GameObject:
   - component: {fileID: 33067074834349496}
   - component: {fileID: 23075893922952910}
   - component: {fileID: 114843144035996010}
-  - component: {fileID: 114811683069564548}
   m_Layer: 0
   m_Name: Cylinder31
   m_TagString: Untagged
@@ -1381,7 +1345,6 @@ GameObject:
   - component: {fileID: 33024835370187972}
   - component: {fileID: 23949836597852612}
   - component: {fileID: 114315976068282210}
-  - component: {fileID: 114431751663848078}
   m_Layer: 0
   m_Name: Cylinder33
   m_TagString: Untagged
@@ -1400,7 +1363,6 @@ GameObject:
   - component: {fileID: 33768154442338202}
   - component: {fileID: 23521301601679296}
   - component: {fileID: 114423756046574346}
-  - component: {fileID: 114716788071449488}
   m_Layer: 0
   m_Name: Cylinder0
   m_TagString: Untagged
@@ -1419,7 +1381,6 @@ GameObject:
   - component: {fileID: 33508432960413684}
   - component: {fileID: 23545899687780042}
   - component: {fileID: 114730748254454500}
-  - component: {fileID: 114333217796682824}
   m_Layer: 0
   m_Name: Cylinder32
   m_TagString: Untagged
@@ -1438,7 +1399,6 @@ GameObject:
   - component: {fileID: 33254379983092794}
   - component: {fileID: 23319261688331026}
   - component: {fileID: 114101464237138108}
-  - component: {fileID: 114135214050584056}
   m_Layer: 0
   m_Name: Cylinder8
   m_TagString: Untagged
@@ -1511,7 +1471,6 @@ GameObject:
   - component: {fileID: 33124877640544526}
   - component: {fileID: 23779899200604824}
   - component: {fileID: 114003672521507398}
-  - component: {fileID: 114615023175543352}
   m_Layer: 0
   m_Name: FocusBoxEdgeTop
   m_TagString: Untagged
@@ -1530,7 +1489,6 @@ GameObject:
   - component: {fileID: 33274660159350116}
   - component: {fileID: 23847744595888434}
   - component: {fileID: 114504198287916444}
-  - component: {fileID: 114216744747296574}
   m_Layer: 0
   m_Name: Cylinder13
   m_TagString: Untagged
@@ -1804,7 +1762,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1164484534888158}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.51, z: 0.03}
+  m_LocalPosition: {x: 0, y: 0.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4428534565125054}
@@ -1843,8 +1801,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1400797346742082}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.1, y: 0.51, z: 0.03}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.51, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 4467119931476852}
   m_RootOrder: 1
@@ -2639,8 +2597,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1612411635308894}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.1, y: 0.51, z: 0.03}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.51, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 4916535107698266}
   m_RootOrder: 1
@@ -2652,7 +2610,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1026858529246514}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.51, z: -0.03}
+  m_LocalPosition: {x: 0, y: 0.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4475689244161470}
@@ -5234,18 +5192,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1329727996401818}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65249409618272942
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1058336183621642}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95659353055059478
 Animator:
   serializedVersion: 3
@@ -5536,31 +5482,9 @@ MonoBehaviour:
   m_Script: {fileID: -119419473, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ModuleType: Grid Matching
+  ModuleType: GridMatching
   ModuleDisplayName: Grid Matching
   RequiresTimerVisibility: 0
---- !u!114 &114074631109849242
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1130952786445548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114074673341198446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5600,28 +5524,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - GUI/KT 3D Text
---- !u!114 &114088613910148864
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1779534035856060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 114434558955990624}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114101464237138108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5683,50 +5585,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114124730082349786
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1721822683730048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114135214050584056
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1936417084396920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114144652672252392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5740,28 +5598,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114148936449079048
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1635340761097206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114161284532604312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5825,28 +5661,6 @@ MonoBehaviour:
   m_Script: {fileID: -381104716, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114185193363843338
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164193146522444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114196661055605570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5873,28 +5687,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114209236604112420
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1211252813833622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114211558146464738
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5908,28 +5700,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Outline
---- !u!114 &114216744747296574
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1997643733866822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114221482627582660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5982,28 +5752,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - GUI/KT 3D Text
---- !u!114 &114229025814990804
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1536860775623850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114231614022836296
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6115,28 +5863,6 @@ MonoBehaviour:
   m_Script: {fileID: 2144496390, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114305204846606852
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1696580242694772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114310079589886596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6176,50 +5902,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114319095034827548
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1520254806202496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114320965238082122
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1133340564716856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 114434558955990624}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114325004752836404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6272,28 +5954,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114333217796682824
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1920246379866818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114339182809260242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6307,28 +5967,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114339378986618280
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1212162095429950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114352388061647954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6368,28 +6006,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114382424429046384
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1329727996401818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114387812199825000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6464,72 +6080,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114431751663848078
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1872514625816898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114434558955990624
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1218306164995746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 114792090069633474}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114436085487441448
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1368261335897760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114460212715977406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6641,28 +6191,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Outline
---- !u!114 &114493019412156460
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1201276016780742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114504198287916444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6689,28 +6217,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114536240285496560
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1098514118980522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114542266171894364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6820,28 +6326,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - GUI/KT 3D Text
---- !u!114 &114615023175543352
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1981558608212688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 114434558955990624}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114623589295030560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6868,28 +6352,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114640789889998270
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1830414943551936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114656638585291656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6916,50 +6378,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - GUI/KT 3D Text
---- !u!114 &114660220471506108
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1309407171080434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114663446411727066
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1440357365761652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 114434558955990624}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114663903248382060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7021,28 +6439,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114688424570484290
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1582661337455776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114708903507673864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7069,72 +6465,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114712126436316538
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1265075933689882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114716788071449488
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1900712908949692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114728625800055862
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1777161715382702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114730748254454500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7244,28 +6574,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114811683069564548
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1832871839226144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114822070469182966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7341,66 +6649,44 @@ MonoBehaviour:
   - {fileID: 114977861824839066}
   ButtonVerifySolution: {fileID: 114569184642906146}
   DisplayGrid:
-  - {fileID: 114716788071449488}
-  - {fileID: 114074631109849242}
-  - {fileID: 114185193363843338}
-  - {fileID: 114436085487441448}
-  - {fileID: 114493019412156460}
-  - {fileID: 114897478721295920}
-  - {fileID: 114148936449079048}
-  - {fileID: 114728625800055862}
-  - {fileID: 114135214050584056}
-  - {fileID: 114660220471506108}
-  - {fileID: 114989457682872706}
-  - {fileID: 114688424570484290}
-  - {fileID: 114229025814990804}
-  - {fileID: 114216744747296574}
-  - {fileID: 114898177462418310}
-  - {fileID: 114319095034827548}
-  - {fileID: 114339378986618280}
-  - {fileID: 114923366575340500}
-  - {fileID: 114712126436316538}
-  - {fileID: 114305204846606852}
-  - {fileID: 114843555964382940}
-  - {fileID: 114874136593380926}
-  - {fileID: 114931325735332896}
-  - {fileID: 114124730082349786}
-  - {fileID: 114382424429046384}
-  - {fileID: 114969022211257338}
-  - {fileID: 114863104726356480}
-  - {fileID: 114834968266604930}
-  - {fileID: 114895448679098100}
-  - {fileID: 114209236604112420}
-  - {fileID: 114916065010536816}
-  - {fileID: 114811683069564548}
-  - {fileID: 114333217796682824}
-  - {fileID: 114431751663848078}
-  - {fileID: 114536240285496560}
-  - {fileID: 114640789889998270}
-  FocusBox: {fileID: 114434558955990624}
+  - {fileID: 1900712908949692}
+  - {fileID: 1130952786445548}
+  - {fileID: 1164193146522444}
+  - {fileID: 1368261335897760}
+  - {fileID: 1201276016780742}
+  - {fileID: 1106265116692262}
+  - {fileID: 1635340761097206}
+  - {fileID: 1777161715382702}
+  - {fileID: 1936417084396920}
+  - {fileID: 1309407171080434}
+  - {fileID: 1691203853363072}
+  - {fileID: 1582661337455776}
+  - {fileID: 1536860775623850}
+  - {fileID: 1997643733866822}
+  - {fileID: 1137692546727518}
+  - {fileID: 1520254806202496}
+  - {fileID: 1212162095429950}
+  - {fileID: 1811460399113474}
+  - {fileID: 1265075933689882}
+  - {fileID: 1696580242694772}
+  - {fileID: 1374876683698654}
+  - {fileID: 1499910603745626}
+  - {fileID: 1230186461441458}
+  - {fileID: 1721822683730048}
+  - {fileID: 1329727996401818}
+  - {fileID: 1010667720276502}
+  - {fileID: 1696630097418458}
+  - {fileID: 1004308571934700}
+  - {fileID: 1554745538262166}
+  - {fileID: 1211252813833622}
+  - {fileID: 1501027399194112}
+  - {fileID: 1832871839226144}
+  - {fileID: 1920246379866818}
+  - {fileID: 1872514625816898}
+  - {fileID: 1098514118980522}
+  - {fileID: 1830414943551936}
+  FocusBox: {fileID: 1218306164995746}
   ScrollerText: {fileID: 102637231526665096}
---- !u!114 &114834968266604930
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1004308571934700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114838052786517046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7427,28 +6713,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114843555964382940
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374876683698654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114845445295303706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7488,28 +6752,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114863104726356480
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1696630097418458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114865652640032030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7523,94 +6765,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Outline
---- !u!114 &114874136593380926
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1499910603745626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114895448679098100
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1554745538262166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114897478721295920
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106265116692262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114898177462418310
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1137692546727518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114904846120598164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7624,72 +6778,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Outline
---- !u!114 &114916065010536816
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1501027399194112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114923366575340500
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811460399113474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114931325735332896
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1230186461441458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114948390928439312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7729,28 +6817,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114969022211257338
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1010667720276502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
 --- !u!114 &114977861824839066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7767,28 +6833,6 @@ MonoBehaviour:
   IsPassThrough: 0
   ChildRowLength: 0
   Highlight: {fileID: 114477438458144338}
-  SelectableColliders: []
-  DefaultSelectableIndex: 0
-  AllowSelectionWrapX: 0
-  AllowSelectionWrapY: 0
-  ForceSelectionHighlight: 0
-  ForceInteractionHighlight: 0
---- !u!114 &114989457682872706
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1691203853363072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1702003387, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Parent: {fileID: 0}
-  Children: []
-  IsPassThrough: 0
-  ChildRowLength: 0
-  Highlight: {fileID: 0}
   SelectableColliders: []
   DefaultSelectableIndex: 0
   AllowSelectionWrapX: 0

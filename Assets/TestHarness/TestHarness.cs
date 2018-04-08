@@ -70,7 +70,7 @@ public class FakeBombInfo : MonoBehaviour
         {
             if (key == KMBombInfo.QUERYKEY_GET_PORTS)
             {
-                return JsonConvert.SerializeObject((object)new Dictionary<string, List<string>>()
+                return JsonConvert.SerializeObject((object) new Dictionary<string, List<string>>()
                 {
                     {
                         "presentPorts", ports
@@ -107,7 +107,7 @@ public class FakeBombInfo : MonoBehaviour
         {
             if (key == KMBombInfo.QUERYKEY_GET_INDICATOR)
             {
-                return JsonConvert.SerializeObject((object)new Dictionary<string, string>()
+                return JsonConvert.SerializeObject((object) new Dictionary<string, string>()
                 {
                     {
                         "label", val
@@ -136,7 +136,7 @@ public class FakeBombInfo : MonoBehaviour
         {
             if (key == KMBombInfo.QUERYKEY_GET_BATTERIES)
             {
-                return JsonConvert.SerializeObject((object)new Dictionary<string, int>()
+                return JsonConvert.SerializeObject((object) new Dictionary<string, int>()
                 {
                     {
                         "numbatteries", batt
@@ -228,18 +228,18 @@ public class FakeBombInfo : MonoBehaviour
         if (timeLeft < 60)
         {
             if (timeLeft < 10) time += "0";
-            time += (int)timeLeft;
+            time += (int) timeLeft;
             time += ".";
-            int s = (int)(timeLeft * 100);
+            int s = (int) (timeLeft * 100);
             if (s < 10) time += "0";
             time += s;
         }
         else
         {
             if (timeLeft < 600) time += "0";
-            time += (int)timeLeft / 60;
+            time += (int) timeLeft / 60;
             time += ":";
-            int s = (int)timeLeft % 60;
+            int s = (int) timeLeft % 60;
             if (s < 10) time += "0";
             time += s;
         }
@@ -283,7 +283,7 @@ public class FakeBombInfo : MonoBehaviour
         List<string> moduleList = new List<string>();
         foreach (KeyValuePair<KMBombModule, bool> m in modules)
         {
-            if(m.Value) moduleList.Add(m.Key.ModuleDisplayName);
+            if (m.Value) moduleList.Add(m.Key.ModuleDisplayName);
         }
         return moduleList;
     }
@@ -293,7 +293,7 @@ public class FakeBombInfo : MonoBehaviour
         List<string> responses = new List<string>();
         if (queryKey == KMBombInfo.QUERYKEY_GET_SERIAL_NUMBER)
         {
-            responses.Add(JsonConvert.SerializeObject((object)new Dictionary<string, string>()
+            responses.Add(JsonConvert.SerializeObject((object) new Dictionary<string, string>()
             {
                 {
                     "serial", serial
@@ -374,7 +374,7 @@ public class TestHarness : MonoBehaviour
         PrepareLights();
 
         fakeInfo = gameObject.AddComponent<FakeBombInfo>();
-        fakeInfo.ActivateLights += delegate()
+        fakeInfo.ActivateLights += delegate ()
         {
             TurnLightsOn();
             fakeInfo.OnLightsOn();
@@ -396,7 +396,7 @@ public class TestHarness : MonoBehaviour
             {
                 if (f.FieldType.Equals(typeof(KMBombInfo)))
                 {
-                    KMBombInfo component = (KMBombInfo)f.GetValue(s);
+                    KMBombInfo component = (KMBombInfo) f.GetValue(s);
                     component.TimeHandler += new KMBombInfo.GetTimeHandler(fakeInfo.GetTime);
                     component.FormattedTimeHandler += new KMBombInfo.GetFormattedTimeHandler(fakeInfo.GetFormattedTime);
                     component.StrikesHandler += new KMBombInfo.GetStrikesHandler(fakeInfo.GetStrikes);
@@ -409,14 +409,14 @@ public class TestHarness : MonoBehaviour
                 }
                 if (f.FieldType.Equals(typeof(KMGameInfo)))
                 {
-                    KMGameInfo component = (KMGameInfo)f.GetValue(s);
+                    KMGameInfo component = (KMGameInfo) f.GetValue(s);
                     component.OnLightsChange += new KMGameInfo.KMLightsChangeDelegate(fakeInfo.OnLights);
                     //component.OnAlarmClockChange += new KMGameInfo.KMAlarmClockChangeDelegate(fakeInfo.OnAlarm);
                     continue;
                 }
                 if (f.FieldType.Equals(typeof(KMGameCommands)))
                 {
-                    KMGameCommands component = (KMGameCommands)f.GetValue(s);
+                    KMGameCommands component = (KMGameCommands) f.GetValue(s);
                     component.OnCauseStrike += new KMGameCommands.KMCauseStrikeDelegate(fakeInfo.HandleStrike);
                     continue;
                 }
@@ -646,16 +646,15 @@ public class TestHarness : MonoBehaviour
     IEnumerator SimulateModule(Component component, Transform moduleTransform, MethodInfo method, string command)
     {
         // Simple Command
-        if (method.ReturnType == typeof(KMSelectable[]))
+        if (method.ReturnType == typeof(KMSelectable[]) || method.ReturnType == typeof(IEnumerable<KMSelectable>))
         {
-            KMSelectable[] selectableSequence = null;
+            IList<KMSelectable> selectableList = null;
             try
             {
-                selectableSequence = (KMSelectable[]) method.Invoke(component, new object[] { command });
+                var selectableSequence = (IEnumerable<KMSelectable>) method.Invoke(component, new object[] { command });
                 if (selectableSequence == null)
-                {
                     yield break;
-                }
+                selectableList = (selectableSequence as IList<KMSelectable>) ?? selectableSequence.ToArray();
             }
             catch (System.Exception ex)
             {
@@ -666,7 +665,7 @@ public class TestHarness : MonoBehaviour
 
             int initialStrikes = fakeInfo.strikes;
             int initialSolved = fakeInfo.GetSolvedModuleNames().Count;
-            foreach (KMSelectable selectable in selectableSequence)
+            foreach (KMSelectable selectable in selectableList)
             {
                 DoInteractionStart(selectable);
                 yield return new WaitForSeconds(0.1f);
