@@ -131,12 +131,13 @@ public class GridMatching : MonoBehaviour {
 		Audio.PlayGameSoundAtTransform (KMSoundOverride.SoundEffect.ButtonPress, ButtonVerifySolution.transform);
 		ButtonVerifySolution.AddInteractionPunch (buttonbump);
 		Debug.LogFormat ("[GridMatching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, solutionboard.getSolution(), solutionName);
+		Debug.LogFormat ("[GridMatching #{0}] Current Grid: {1} Current Label: {2}", _moduleId, displayboard.getBoardState (), scroller.getState());
 		if (solutionboard.checkProposedSolution(displayboard) && ScrollerText.text.Equals(solutionName)){
-			Debug.LogFormat ("[GridMatching #{0}] Entered correct Solution and Label. Solution: {1} Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
+			Debug.LogFormat ("[GridMatching #{0}] Entered correct Solution and Label.", _moduleId);
 			BombModule.HandlePass ();
 		} 
 		else {
-			Debug.LogFormat ("[GridMatching #{0}] Entered incorrect Solution or Label. Solution: {1} Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
+			Debug.LogFormat ("[GridMatching #{0}] Entered incorrect Solution or Label.", _moduleId);
 			BombModule.HandleStrike ();
 		}
 		return false;
