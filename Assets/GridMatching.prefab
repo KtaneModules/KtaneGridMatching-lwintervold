@@ -605,7 +605,7 @@ GameObject:
   - component: {fileID: 102237690213620802}
   - component: {fileID: 114169222262062574}
   m_Layer: 0
-  m_Name: New Text
+  m_Name: ScrollerButtonLeftText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1802,7 +1802,7 @@ Transform:
   m_GameObject: {fileID: 1400797346742082}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.51, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4467119931476852}
   m_RootOrder: 1
@@ -1952,7 +1952,7 @@ Transform:
   m_GameObject: {fileID: 1175962899105370}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.5099997, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.100000195, z: 0.100000195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4018298396872314}
   m_RootOrder: 1
@@ -2354,7 +2354,7 @@ Transform:
   m_GameObject: {fileID: 1297219515134984}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.51, z: -0}
-  m_LocalScale: {x: 0.1, y: 0.14, z: 0.1}
+  m_LocalScale: {x: 1, y: 1.4, z: 1}
   m_Children: []
   m_Father: {fileID: 4373657650770464}
   m_RootOrder: 0
@@ -2598,7 +2598,7 @@ Transform:
   m_GameObject: {fileID: 1612411635308894}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.51, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4916535107698266}
   m_RootOrder: 1
@@ -5265,7 +5265,7 @@ TextMesh:
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 102
+  m_FontSize: 100
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: 8bfce79c5defe72479f3a29cb5c6f027, type: 3}
@@ -5300,7 +5300,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1612411635308894}
-  m_Text: "\u25C0"
+  m_Text: "\u25C4"
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 0.1
@@ -5323,7 +5323,7 @@ TextMesh:
   m_GameObject: {fileID: 1175962899105370}
   m_Text: "\u25BA"
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 0.1
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
@@ -5342,7 +5342,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1400797346742082}
-  m_Text: "\u25B6"
+  m_Text: "\u25BA"
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
@@ -5407,7 +5407,7 @@ TextMesh:
   m_GameObject: {fileID: 1297219515134984}
   m_Text: 
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 0.1
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
