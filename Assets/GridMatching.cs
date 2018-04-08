@@ -164,6 +164,10 @@ public class GridMatching : MonoBehaviour
         }
     }
 
+#pragma warning disable 414
+    private string TwitchHelpMessage = "Commands are “left/right/up/down/clockwise/counter-clockwise/submit” or “l/r/u/d/cw/ccw/s”. The letter can be set by using “set d” or “'d'”. All of these can be chained, for example: “!{0} up right right clockwise 'd' submit”. You can only use one letter-setting command at a time.";
+#pragma warning restore 414
+
     private IEnumerable<KMSelectable> TPScroll(char character)
     {
         var ch = char.ToUpperInvariant(character);
