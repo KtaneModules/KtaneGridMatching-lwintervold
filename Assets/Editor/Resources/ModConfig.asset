@@ -13,10 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: GridMatching
   title: Grid Matching
-  description: 'Can you make the lights overlap in time?
-
-
-    Manual overhaul by Timwi. (Thanks Timwi!)'
+  description: "Can you make the lights overlap in time?\n\nManual overhaul by Timwi.
+    (Thanks Timwi!)\r\n\n[url=https://github.com/lwintervold/KtaneGridMatching/tree/master/Manual/pdfs/Modules]Manual
+    PDF[/url]"
   version: 0.1
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 9bc4a7969e6944b4a8ccf1a41f78148b, type: 3}
