@@ -71,8 +71,11 @@ public class GridMatching : MonoBehaviour
         FocusBox.transform.localPosition = displayboard.getFocusBoxCoords();
 
         Debug.LogFormat("[Grid Matching #{0}] Seed Grid: {1} Seed Label: {2}", _moduleId, solutionboard.getBoardState(), solutionName);
+        solutionboard.printBoard(solutionboard.getBoardState());
         Debug.LogFormat("[Grid Matching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, solutionboard.getSolution(), solutionName);
+        solutionboard.printBoard(solutionboard.getSolution());
         Debug.LogFormat("[Grid Matching #{0}] Current Grid: {1} Current Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
+        displayboard.printBoard(displayboard.getBoardState());
     }
 
 	private void HandleDirectionalButton(int i){
@@ -135,8 +138,10 @@ public class GridMatching : MonoBehaviour
         Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, ButtonVerifySolution.transform);
         ButtonVerifySolution.AddInteractionPunch(buttonbump);
         Debug.LogFormat("[Grid Matching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, solutionboard.getSolution(), solutionName);
+        solutionboard.printBoard(solutionboard.getSolution());
         Debug.LogFormat("[Grid Matching #{0}] Current Grid: {1} Current Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
-		if (solutionboard.checkProposedSolution(displayboard) && ScrollerText.text.Equals(solutionName)){
+        displayboard.printBoard(displayboard.getBoardState());
+        if (solutionboard.checkProposedSolution(displayboard) && ScrollerText.text.Equals(solutionName)){
             Debug.LogFormat("[Grid Matching #{0}] Entered correct Solution and Label.", _moduleId);
             BombModule.HandlePass();
         }
