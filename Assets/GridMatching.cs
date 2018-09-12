@@ -25,7 +25,6 @@ public class GridMatching : MonoBehaviour
     private static readonly List<long> solutionStates = new List<long> {0x92B1F4E41L, 0xF047DF33AL, 0x79035474BL, 0xAF4315D30L, 0x3FBC31DF8L, 0xA3212A56L, 0xC1A9A421BL, 0x35E71B3D7L,
         0x5FDB664B4L, 0x573F48D44L, 0x657725AAFL, 0xA4AFBE0ADL, 0x1ACA28687L, 0x13E1AA4B5L, 0x854956717L, 0xE7B1B09AL};
 
-    private Board_6x6 solutionboard;
     private Board_6x6 displayboard;
     private Scroller scroller;
     private string solutionName;
@@ -63,19 +62,17 @@ public class GridMatching : MonoBehaviour
         solutionName = solutionNames[solution_index];
 
         scroller = new Scroller(solutionNames, ScrollerText);
-        solutionboard = new Board_6x6(solutionState);
-
-        displayboard = solutionboard.generateRandomDisplay();
+        displayboard = new Board_6x6(solutionState);
 
         UpdateGrid(displayboard.getBoardState());
         FocusBox.transform.localPosition = displayboard.getFocusBoxCoords();
 
-        Debug.LogFormat("[Grid Matching #{0}] Seed Grid: {1} Seed Label: {2}", _moduleId, solutionboard.getBoardState(), solutionName);
-        solutionboard.printBoard(solutionboard.getBoardState());
-        Debug.LogFormat("[Grid Matching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, solutionboard.getSolution(), solutionName);
-        solutionboard.printBoard(solutionboard.getSolution());
+        Debug.LogFormat("[Grid Matching #{0}] Seed Grid: {1} Seed Label: {2}", _moduleId, solutionStates[solution_index], solutionName);
+        Board_6x6.printBoard(solutionStates[solution_index]);
+        Debug.LogFormat("[Grid Matching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, displayboard.getSolutionState(), solutionName);
+        Board_6x6.printBoard(displayboard.getSolutionState());
         Debug.LogFormat("[Grid Matching #{0}] Current Grid: {1} Current Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
-        displayboard.printBoard(displayboard.getBoardState());
+        Board_6x6.printBoard(displayboard.getBoardState());
     }
 
 	private void HandleDirectionalButton(int i){
@@ -137,11 +134,11 @@ public class GridMatching : MonoBehaviour
 	private bool HandleVerifySolution(){
         Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, ButtonVerifySolution.transform);
         ButtonVerifySolution.AddInteractionPunch(buttonbump);
-        Debug.LogFormat("[Grid Matching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, solutionboard.getSolution(), solutionName);
-        solutionboard.printBoard(solutionboard.getSolution());
+        Debug.LogFormat("[Grid Matching #{0}] Solution Grid: {1}  Solution Label: {2}", _moduleId, displayboard.getSolutionState(), solutionName);
+        Board_6x6.printBoard(displayboard.getSolutionState());
         Debug.LogFormat("[Grid Matching #{0}] Current Grid: {1} Current Label: {2}", _moduleId, displayboard.getBoardState(), scroller.getState());
-        displayboard.printBoard(displayboard.getBoardState());
-        if (solutionboard.checkProposedSolution(displayboard) && ScrollerText.text.Equals(solutionName)){
+        Board_6x6.printBoard(displayboard.getBoardState());
+        if (displayboard.checkProposedSolution() && ScrollerText.text.Equals(solutionName)){
             Debug.LogFormat("[Grid Matching #{0}] Entered correct Solution and Label.", _moduleId);
             BombModule.HandlePass();
         }
